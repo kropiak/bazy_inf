@@ -30,4 +30,4 @@ Posiłkując się nową wiedzą odnośnie relacji zmodyfikuj schemat bazy przygo
 
 **Zadanie 2**
 
-Przygotuj schemat bazy danych dla przychodni lekarskiej. Postaraj się uwzględnić również tabele przechowujące zaplanowane wizyty pacjentów oraz historię tych wizyt. W miarę możliwości wykorzystaj relację n:n.
+Przygotuj schemat bazy danych dla przychodni lekarskiej. Postaraj się uwzględnić również tabele przechowujące zaplanowane wizyty pacjentów oraz historię tych wizyt. W miarę możliwości wykorzystaj relację m:n.
