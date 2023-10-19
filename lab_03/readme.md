@@ -1,4 +1,4 @@
-# Lab 2. Modelowanie danych na potrzeby baz danych.
+# Lab 3. Modelowanie danych na potrzeby baz danych.
 
 ## 1. Etapy projektowania.
 
