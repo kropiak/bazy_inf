@@ -17,7 +17,7 @@ Przygotowanie finalnego modelu danych możemy podzielić na 3 etapy.
 
 **3. Model fizyczny:**
 * wygenerowanie kodu SQL dla wybranego silnika bazy danych,
-* indkesy, widoki,
+* indeksy, widoki,
 * kolumny techniczne.
 
 Modelowanie bazy polega na stworzeniu struktury tabel i relacji ich łączących,
