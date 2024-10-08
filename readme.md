@@ -1,14 +1,14 @@
-# Bazy danych, informatyka, studia stacjonarne,semestr 2023Z
+# Bazy danych, informatyka, studia stacjonarne,semestr 2024Z
 
 
 ## **1. Organizacja zajęć**
 
 Zajęcia będą obejmowały następujące zagadnienia:
-- obsługa systemu kontroli wersji Git
-- modelowanie związków encji z użyciem MySQL Workbench
-- praca z językiem SQL poprzez wiersz poleceń oraz MySQL Workbench i phpmyadmin
+- obsługa systemu kontroli wersji Git na potrzeby udostępniania rozwiązań zadań,
+- modelowanie związków encji z użyciem MySQL Workbench,
+- praca z językiem SQL poprzez wiersz poleceń oraz MySQL Workbench i phpmyadmin.
 
-Zadania do samodzielnego wykonania, które zostaną udostępnione w trakcie zajęć studenci są zobowiązani umieszczać w repozytoriach (Github, bitbucket) a dostęp do nich należy umożliwić prowadzącemu zajęcia.
+Zadania do samodzielnego wykonania, które zostaną udostępnione w trakcie zajęć studenci są zobowiązani umieszczać w repozytoriach (Github, bitbucket), a dostęp do nich należy umożliwić prowadzącemu zajęcia. Sposób realizacji tego zdania zostanie studentom przedstawiony w teakcie zajęć.
 
 
 
