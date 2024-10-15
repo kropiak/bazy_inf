@@ -364,7 +364,7 @@ Polecenie
 ```bash
 git push -u origin master
 ```
-próbuje wysłać aktualną gałąź (i jej stan z wykonanego nostatnio commitu) do zdalnego repozytorium z adresu przypisanego do aliasu (origin) do zdalnej gałęzi master.
+próbuje wysłać aktualną gałąź (i jej stan z wykonanego ostatnio commitu) do zdalnego repozytorium z adresu przypisanego do aliasu (origin) do zdalnej gałęzi master.
 Tutaj może się pojawić kilka problemów (błędów), które mogą tę operację uniemożliwić.
 Jeżeli otrzymamy komunikat, mówiący, że wypchanie nie jest możliwe, bo użytkownik o nazwie xxx nie posiada uprawnień oznacza to, że w `menedżerze poświadczeń` są zapisane poświadczenia do serwisu GitHub innego użytkownika (mogą pochodzić z innego narzędzia). Należy usunąć wszystkie poświadczenia, które odwołują się do serwisu GitHub i ponowić próbę wypchania zmian. Można ponowić operację wypchania zmian.
 
