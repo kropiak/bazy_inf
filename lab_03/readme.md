@@ -1,4 +1,4 @@
-# Bazy danych, informatyka, studia stacjonarne 2023/2024
+# Bazy danych, informatyka, studia stacjonarne 2024/2025
 
 
 ## **1. Relacje**
