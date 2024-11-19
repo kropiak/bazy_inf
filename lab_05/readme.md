@@ -17,7 +17,7 @@ Bjorn wyrzucony przez morskie fale, leżał nieprzytomny na plaży. Obudziło go
 
 _Podpowiedź_
 1. CREATE AS SELECT
-2. Zobacz dostępną opcję określenia warunku za pomocą 'IN'
+4. Zobacz dostępną opcję określenia warunku za pomocą 'IN'
 
 
 ### Kokos?
