@@ -29,7 +29,9 @@ Wygląd wyspy, na której się znaleźli zdziwił ich, ponieważ była ona całk
 1. Wyświetl kreatury, które nie są wiedźmą i dźwigają co najmniej 50kg.
 2. Wyświetl zasoby, które ważą pomiędzy 2 a 5 kg.
 3. Wyświetl kreatury, których nazwa zawiera 'or' i które dźwigają między 30kg a 70kg.
-Hamak
+
+### Hamak
+
 Bjorn stwierdził, że nie ma zamiaru już spać na kokosach, więc udał się do dżungli, aby znaleźć gałęzie i liany na hamak. Nagle przypomniał sobie, że zgubił swój topór, więc zębami twardymi niczym skała łamiąca statek utnie potrzebne mu materiały. Długo się męczył, poprosił też drozda o pomoc w dziobaniu drewna i w końcu udało się. Bjorn rozwiesił sobie hamak między dwiema palmami i zasypiając myślał o tym, co go czeka jutro.
 
 **Zadanie 3**
