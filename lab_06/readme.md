@@ -70,7 +70,7 @@ Cała trójka rozmawiała ze sobą do późnej nocy o wszystkim i niczym. Dziade
 
 **Zadanie 5**
 
-1. Dla każdego rodzaju kreatury wyświetlić średnią wagę zasobów, jaką posiadają w ekwipunku, jeśli kreatura nie jest małpą ani wężem i ilość ekwipunku jest poniżej 30.  
+1. Dla każdego rodzaju kreatury wyświetlić średnią wagę zasobów, jaką posiadają w ekwipunku, jeśli kreatura nie jest małpą ani wężem i suma ilości ekwipunku jest poniżej 30.  
 2. Dla każdego rodzaju kreatury wyświetlić nazwę, datę urodzenia i rodzaj najmłodszej i najstarszej kreatury.  
 
 **Podpowiedź**
