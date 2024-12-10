@@ -244,8 +244,7 @@ Bjorn niepewnym krokiem udał się w stronę pieczary. Jeszcze raz się upewnił
 środku teściowej, po czym zaczął szybko kopać dziurę. Gdy była już gotowa przykrył ją liśćmi, a futro ułożył obok pułapki. Aż tu nagle, usłyszał kroki teściowej. Szybko schował się za pobliskie drzewo, aby obserwować sytuację.
 
 **Zadanie 1**
-1. Napisz wyzwalacz, który przed wstawieniem lub modyfikacją tabeli `kreatura` sprawdzi czy
-`waga` jest większa od zera.
+1. Napisz wyzwalacz, który przed wstawieniem lub modyfikacją tabeli `kreatura` sprawdzi czy `waga` jest większa od zera, a jeżeli nie jest to ustaw wagę na 0.
 
 
 ### Futro
