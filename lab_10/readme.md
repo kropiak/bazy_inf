@@ -66,7 +66,7 @@ Wyświetl sumę wartości wszystkich anulowanych zamówień.
 
 **Zadanie 15**
 
-Wyświetl liczbę zamówień i sumę zamówień dla każdego miasta z podstawowego adresu klientów.
+Wyświetl liczbę zamówień i wartość zamówień dla każdej miejscowości z podstawowego adresu klienta.
 
 **Zadanie 16**
 
