@@ -74,7 +74,7 @@ Wyświetl dotychczasowy dochód firmy biorąc pod uwagę tylko zamówienia zreal
 
 **Zadanie 17**
 
-Policz i wyświetl dochód (przychód z zamówień i cena zakupu towaru) w każdym roku działalności firmy.
+Policz i wyświetl dochód (przychód z zamówień - cena zakupu towaru) w każdym roku działalności firmy.
 
 **Zadanie 18**
 
