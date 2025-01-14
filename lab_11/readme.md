@@ -49,7 +49,7 @@ Dodaj dane do tabel w następującej ilości:
 
 **Zadanie 7**
 
-Dodaj wartość domyślną do kolumny `opis` w tabeli `przedmiot` o wartości `Brak opisu`.
+Zmień typ kolumny `opis` w tabeli `przedmiot` na VARCHAR oraz ustaw wartość domyślną dla tej kolumny na `Brak opisu`.
 
 **Zadanie 8**
 
