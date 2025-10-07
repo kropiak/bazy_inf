@@ -1,4 +1,4 @@
-# Bazy danych, semestr 2024Z
+# Bazy danych, semestr 2025Z
 
 ## Lab 1 - narzędzie git
 ---
