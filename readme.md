@@ -20,3 +20,9 @@ Końcowa ocena będzie wypadkową oceny:
 - rozwiązań (i terminowości ich oddawania) zadań przekazywanych studentom w trakcie zajęć (około 22% wagi)
 
 Sylabus przedmiotu: [sylabus](17S1O-24BAZDAN_2025Z_all.pdf)
+
+## **3. Kontakt**
+
+**Prowadzący:** dr inż. Krzysztof Ropiak
+**e-mail**: kropiak@matman.uwm.edu.pl
+**Discord:** krzysztof.ropiak
