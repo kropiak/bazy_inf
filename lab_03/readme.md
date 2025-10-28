@@ -16,15 +16,14 @@
 
 ### Zadanie 2
 
-   1. Stwórz tabelę `zadanie` z poniższymi polami:
+1. Stwórz tabelę `zadanie` z poniższymi polami:
    * `id_zadania` - klucz główny, liczba samozwiększająca się,
    * `nazwa_zadania` - ciąg znaków, pole wymagane, długość max. 150 znaków,
    * `priorytet` - typ wyliczeniowy (`normalny`, `wysoki`, `niski`),
    * `opis` - długi tekst, pole opcjonalne,
    * `pracownik` - klucz obcy do tabeli `pracownik`, w razie usunięcia wstaw `null`.
-
-1. Zmodyfikuj pole `priorytet` i ustaw wartość domyślną na `normalny`.
-2. Dodaj po jednym zadaniu dla każdego pracownika.
+2. Zmodyfikuj pole `priorytet` i ustaw wartość domyślną na `normalny`.
+3. Dodaj po jednym zadaniu dla każdego pracownika.
 
 
 ### Zadanie 3
@@ -35,7 +34,7 @@
    * `data_rozpoczecia` - typ daty,
    * `data_zakonczenia` - typ daty, może być pusty.
 
-2. Za pomocą odddzielnego polecenia dodaj do tabeli `projekt` pole `menadzer_projektu` - klucz obcy do tabeli `pracownik`.
+2. Za pomocą oddzielnego polecenia dodaj do tabeli `projekt` pole `menadzer_projektu` - klucz obcy do tabeli `pracownik`.
 3. Dodaj 2 rekordy do tabeli `projekt`.
 4. Dodaj do tabeli `zadanie` kolumnę `projekt`, klucz obcy do tabeli `projekt`, kaskadowe usuwanie rekordów.
 5. Zaktualizuj wartości w tabeli `zadanie` dodając brakujące identyfikatory projektu, do którego należy je przypisać.
@@ -48,7 +47,7 @@
    * `data_rozpoczecia` - typ daty,
    * `data_zakonczenia` - typ daty.
 
-2. Zmodyfikuj tablę `zadanie` i dodaj kolumnę `sprint`, która będzie kluczem obcym do tabeli `sprint`, można wstawiać w niej wartość `null` (pole opcjonalne), wstawiaj `null` w razie usunięcua rekordu nadrzędnego.
+2. Zmodyfikuj tabelę `zadanie` i dodaj kolumnę `sprint`, która będzie kluczem obcym do tabeli `sprint`, można wstawiać w niej wartość `null` (pole opcjonalne). Wstawiaj `null` w razie usunięcia rekordu nadrzędnego.
 3. Dodaj 1 sprint i przydziel do niego 2 zadania.
 
 ### Zadanie 5
