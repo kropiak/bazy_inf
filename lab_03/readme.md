@@ -11,7 +11,7 @@
    * `nazwisko` -  ciąg znaków, pole wymagane, maksymalnie 60 znaków,
    * `data_urodzenia` - typ daty, pole wymagane
 
-2. Do tablei `pracownik` wstaw 3 rekordy danych.
+2. Do tabeli `pracownik` wstaw 3 rekordy danych.
 3. Zmodyfikuj wartość w kolumnie `data_urodzenia` dla dowolnego rekordu.
 
 ### Zadanie 2
