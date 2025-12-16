@@ -1,5 +1,3 @@
-# Zestaw_6
-
 # Bazy danych, informatyka, studia stacjonarne, semestr 2025Z
 
 ## SQL. Funkcje tekstowe, daty i czasu MySQL
