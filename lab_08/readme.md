@@ -1,3 +1,5 @@
+# Zestaw_6
+
 # Bazy danych, informatyka, studia stacjonarne, semestr 2025Z
 
 ## SQL. Funkcje tekstowe, daty i czasu MySQL
@@ -30,6 +32,7 @@
 
 Hasło powinno wyglądać np. tak  **`abcWXYZ7`**, gdzie **`abc`** to trzy pierwsze litery imienia małymi literami, **`WXYZ`** to ostatnie cztery litery nazwiska wielkimi literami, a **`7`** to suma długości imienia i nazwy jego ulicy.
 
+---
 ### Zadanie 4
 
 1. Wykorzystując funkcję `DATE_FORMAT` ([dokumentacja](https://dev.mysql.com/doc/refman/8.4/en/date-and-time-functions.html#function_date-format)) wyświetl datę sprzedaży zamówienia w postaci:
