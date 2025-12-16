@@ -3,7 +3,7 @@
 ## SQL. Funkcje tekstowe, daty i czasu MySQL
 
 ### Zadanie 1
-1. Pełna nazwa klienta, nazwa ulicy, długość i pierwsze 5 liter ulicy.
+1. Pełna nazwa klienta, nazwa ulicy, liczbę znaków i pierwsze 5 znaków z nazwy ulicy.
 2. Skrócona nazwa klienta i nazwa typu adresu (z uwzględnieniem klientów bez przypisanego typu adresu).
 3. Nazwa produktu, nazwa kategorii, pierwsze trzy znaki nazwy produktu.
 4. Nazwy produktów i opisy tych, które zostały sprzedane.
