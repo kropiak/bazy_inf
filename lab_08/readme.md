@@ -29,12 +29,12 @@
 4. Dla każdego klienta wyświetl dwie kolumny:
 -  Pierwsza kolumna zawiera pełną nazwę klienta oraz nazwę skróconą po myślniku (np. "Food Market SA' - FoodMarket"),
 -  Druga kolumna zawiera listę trzech ostatnich cyfr wszystkich numerów zamówień, które złożył klient, oddzielonych przecinkami, w formacie (np. "003, 005, 123").
-1. Dla każdego pracownika stwórz i wyświetl hasło, które będzie składać się z 
+5. Dla każdego pracownika stwórz i wyświetl hasło, które będzie składać się z 
 - pierwszych 3 liter imienia (małymi literami),
 - a następnie ostatnich 4 znaków nazwiska (wielkimi literami),
-- a na koniec suma długości imienia i nazwy jego ulicy (liczba znaków).
+- a na koniec suma długości imienia, roku, miesiąca i dnia urodzenia tego pracownika.
 
-Hasło powinno wyglądać np. tak  **`abcWXYZ7`**, gdzie **`abc`** to trzy pierwsze litery imienia małymi literami, **`WXYZ`** to ostatnie cztery litery nazwiska wielkimi literami, a **`7`** to suma długości imienia i nazwy jego ulicy.
+Hasło powinno wyglądać np. tak  **`abcWXYZ7`**, gdzie **`abc`** to trzy pierwsze litery imienia małymi literami, **`WXYZ`** to ostatnie cztery litery nazwiska wielkimi literami, a **`7`** to suma długości imienia, roku, miesiąca i dnia urodzenia.
 
 ---
 ### Zadanie 4
