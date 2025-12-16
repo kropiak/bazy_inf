@@ -14,6 +14,12 @@
 2. Dla wszystkich zamówień które nie mają statusu `Zwrocone` albo `Zamkniete`.  Oblicz i wyświetl termin płatności który wynosi 14 dni od daty zamówienia. 
 3. Imię, nazwisko, data zatrudnienia, dzień tygodnia i nazwa działu (również pracownicy bez działu).
 4. Różnica dni pomiędzy najwcześniejszym, a najpóźniejszym zamówieniem klienta, także dla klientów bez zamówień.
+
+**Podpowiedź**  
+> Opis funkcji daty i czasu możesz znaleźć np. tu: https://www.w3resource.com/mysql/date-and-time-functions/date-and-time-functions.php
+
+1. Możesz wykorzystać funkcję `DATEDIFF`.
+2. Możesz wykorzystać funkcję `DATE_ADD` (to samo co `ADDDATE`).
 ---
 ### Zadanie 3
 
@@ -23,7 +29,7 @@
 4. Dla każdego klienta wyświetl dwie kolumny:
 -  Pierwsza kolumna zawiera pełną nazwę klienta oraz nazwę skróconą po myślniku (np. "Food Market SA' - FoodMarket"),
 -  Druga kolumna zawiera listę trzech ostatnich cyfr wszystkich numerów zamówień, które złożył klient, oddzielonych przecinkami, w formacie (np. "003, 005, 123").
-5. Dla każdego pracownika stwórz i wyświetl hasło, które będzie składać się z 
+1. Dla każdego pracownika stwórz i wyświetl hasło, które będzie składać się z 
 - pierwszych 3 liter imienia (małymi literami),
 - a następnie ostatnich 4 znaków nazwiska (wielkimi literami),
 - a na koniec suma długości imienia i nazwy jego ulicy (liczba znaków).
