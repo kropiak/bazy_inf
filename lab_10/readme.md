@@ -23,7 +23,7 @@ Przykładowy wyzwalacz.
 
 ```sql
 DELIMITER //
-CREATE TRIGGER product_after_insert AFTER INSERT
+CREATE TRIGGER product_after_update AFTER UPDATE
 ON PRODUCT 
 FOR EACH ROW
 BEGIN
