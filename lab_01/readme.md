@@ -42,7 +42,7 @@ Każdy commit jest identyfikowany przez **unikalny hash SHA-1**, który jest 40-
 
 ### 6. **Gałęzie (Branches)**
 
-Gałąź w Git to ruchomy wskaźnik na określony commit. Domyślnie, kiedy tworzysz repozytorium, powstaje główna gałąź o nazwie **main** (lub historycznie `master`). Możesz tworzyć nowe gałęzie, które umożliwiają pracę nad różnymi funkcjami równocześnie, bez wpływu na kod w głównej gałęzi, gdyż w momencie utworzenia nowej gałęzi tworzona jest ona niejako kopia gałęzi, na której nowy branch jest właśnie tworzony.
+Gałąź w Git to ruchomy wskaźnik na określony commit. Domyślnie, kiedy tworzysz repozytorium, powstaje główna gałąź o nazwie `main` (lub historycznie `master`). Możesz tworzyć nowe gałęzie, które umożliwiają pracę nad różnymi funkcjami równocześnie, bez wpływu na kod w głównej gałęzi, gdyż w momencie utworzenia nowej gałęzi tworzona jest ona niejako kopia gałęzi, na której nowy branch jest właśnie tworzony.
 
 Tworzenie i praca z gałęziami pozwala na:
 
@@ -73,7 +73,7 @@ Każda zmiana wprowadzona w projekcie, po dodaniu do indeksu i zatwierdzeniu w f
 
 Instalacja Gita zależy od systemu operacyjnego, na którym pracujesz. Poniżej znajdziesz instrukcje instalacji na różnych platformach.
 
-### 0.1. **Instalacja Git na systemie Linux**
+### 0.1. **Instalacja Git w systemie Linux**
 
 W większości dystrybucji Linux Git jest dostępny w domyślnych repozytoriach. Aby zainstalować Git, wystarczy użyć menedżera pakietów odpowiedniego dla twojej dystrybucji.
 
@@ -152,7 +152,7 @@ Jeśli Git został poprawnie zainstalowany, zobaczysz numer wersji, np. `git ver
 
 Teraz, gdy Git jest zainstalowany na twoim systemie, możesz rozpocząć pracę, konfigurując swoje dane użytkownika za pomocą polecenia `git config`, jak opisano w sekcji konfiguracji.
 
-## 1. **Tworzenie nowe repozytorium**
+## 1. **Tworzenie nowego repozytorium**
 Aby rozpocząć śledzenie projektu, należy utworzyć nowe repozytorium w istniejącym folderze.
 
 ```bash
@@ -168,7 +168,7 @@ git config --global user.name Twoje Imię
 git config --global user.email twoj_email@example.com
 ```
 
-W przypadku pracu wielu osób na tym samym koncie systemu operacyjnego należy skonfigurować te parametry jako local zamiast global jak poniżej
+W przypadku pracy wielu osób na tym samym koncie systemu operacyjnego należy skonfigurować te parametry jako `local` zamiast `global` jak poniżej
 
 ```bash
 git config --local user.name akowalski
@@ -177,7 +177,7 @@ git config --local user.email akowalski@gmail.com
 
 Opcja *global* lub *system* ustawia te parametry dla każdego repozytorium na danym koncie, natomiast *local* jedynie dla tego konkretnego. Należy wtedy pamiętać, że wciąż lokalnie dla konkretnego repozytorium możemy te wartości nadpisać.
 
-Kolejną rzeczą, JEŻELI PRACUJEMY NA KOMPUTERACH W SALI, którą należy wykonać jest wyłączenie domyślnej integracji Visual Studio Code z windowsowym menedżerem poświadczeń, który będzie przechowywał dane logowania do serwisu GitHub innych użytkowników utrudniając pracę kolejnym, którzy będą chcieli wypychać zmiany do swojego zdalnego repozytorium.
+Kolejną rzeczą, **JEŻELI PRACUJEMY NA KOMPUTERACH W SALI**, którą należy wykonać jest wyłączenie domyślnej integracji Visual Studio Code z windowsowym menedżerem poświadczeń, który będzie przechowywał dane logowania do serwisu GitHub innych użytkowników utrudniając pracę kolejnym, którzy będą chcieli wypychać zmiany do swojego zdalnego repozytorium.
 Możemy to zrobić poleceniem:
 ```bash
 git config --system --unset credential.helper
@@ -210,18 +210,18 @@ Aby dodać wszystkie zmodyfikowane pliki używamy komendy:
 git add .
 ```
 
-### 5. **Automatyczne wyłączanie plików z dodwania do repozytorium**
+### 5. **Automatyczne wyłączanie plików z dodawania do repozytorium**
 
 Należy jednak pamiętać, że różne narzędzia dodają 'coś od siebie' i mogą po pierwsze pojawić się pliki konfiguracyjne, które raczej nie będą potrzebne kiedy będziemy chcieli udostępnić repozytorium dla innych użytkowników, którzy mogą chcieć korzystać z innego narzędzia niż nasze i będą musieli samodzielnie nieco 'posprzątać' to repozytorium. Dlatego zalecanym krokiem przed dodaniem czegokolwiek do repozytorium jest przygotowanie pliku `.gitignore` zawierającego reguły (wyrażenia regularne), które spowodują, że spełaniające je zasoby będą przez narzędzie Git ignorowane przy sledzeniu zmian. Jednak należy pamiętać, że w przypadku modyfikacji `.gitignore` powinniśmy usunąć śledzenie zasobów, najwygodniej po prostu:
 
 ```bash
 # UWAGA: poniższe polecenie usunie plik z poczekalni, ale też i z dysku
 git rm *
-# polecenie z przełacznikiem --casched usunie zasoby tylko z poczekalni
+# polecenie z przełącznikiem --cached usunie zasoby tylko z poczekalni
 git rm --cached *
 ```
 
-Tworzymy plik `.gitignore` a w jego treści wpisujemy nazwy plików bądź folderów, które nie chcemy aby były dodawane do naszego repozytorium. Ważne, aby każda nazwa pliku/folderu znajdowała się w nowej linii. Pamiętajmy o dodawaniu rozszerzenia pliku na końcu jego nazwy. Jeżeli chcemy wyłączyć z dodawania wszystkie pliki danego rodzaju możemy posłużyć się prostymi wyrażeniami regularnymi, czyli np. jeżeli chcemy wyłączyć z dodawanai wszystkie pliki typu `.txt` powinniśmy wpisać do pliku `*.txt`...
+Tworzymy plik `.gitignore` a w jego treści wpisujemy nazwy plików bądź folderów, które nie chcemy aby były dodawane do naszego repozytorium. Ważne, aby każda nazwa pliku/folderu znajdowała się w nowej linii. Pamiętajmy o dodawaniu rozszerzenia pliku na końcu jego nazwy. Jeżeli chcemy wyłączyć z dodawania wszystkie pliki danego rodzaju możemy posłużyć się prostymi wyrażeniami regularnymi, czyli np. jeżeli chcemy wyłączyć z dodawania wszystkie pliki typu `.txt` powinniśmy wpisać do pliku `*.txt`...
 
 ... i ponownie:
 ```bash
@@ -375,8 +375,10 @@ git push -f origin master
 
 ### __Pobranie repozytorium w inne miejsce/komputer__
 
-Jeżeli chemy kontynuować pracę z zawartością repozytorium na innym komputerze, narzędziu to wystarczy przejść do folderu, w którym chcemy umieścić repozytorium, np. folder z innymi projektami i wykonać polecenie:
+Jeżeli chcemy kontynuować pracę z zawartością repozytorium na innym komputerze, narzędziu to wystarczy przejść do folderu, w którym chcemy umieścić repozytorium, np. folder z innymi projektami i wykonać polecenie:
 ```bash
 git clone http://link.do.repo
+# lub zapisując repo pod inną nazwą repozytorium
+git clone http://link.do.repo nowa_nazwa_folderu_repozytorium
 ```
 To polecenie __UTWORZY__ nowy folder o nazwie takiej jak nazwa zdalnego repozytorium i umieści tam już informacje o jego stanie (folder .git) oraz informacji o remote (ten sam, z którego został sklonowany). Teraz wystarczy skonfigurować `user.name` oraz `user.email` w przestrzeni `--local`, jeżeli nie ma poprawnych ustawień globalnych (pracujemy na tym samym koncie co inni użytkownicy) i można dalej pracować, zatwierdzać zmiany i wypychać je ponownie do zdalnego repozytorium.

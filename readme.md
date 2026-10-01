@@ -19,10 +19,10 @@ Końcowa ocena będzie wypadkową oceny:
 - z 6-ciu kolejnych "wejściówek" (termin pierwszej zostanie podany w trakcie zajęć) (około 23% wagi)
 - rozwiązań (i terminowości ich oddawania) zadań przekazywanych studentom w trakcie zajęć (około 22% wagi)
 
-Sylabus przedmiotu: [sylabus](17S1O-24BAZDAN_2025Z_all.pdf)
+Sylabus przedmiotu: [sylabus](./17S1O-24BAZDAN_2026Z_1713-SI-DSAIP_A_PRK2.pdf)
 
 ## **3. Kontakt**
 
-**Prowadzący:** dr inż. Krzysztof Ropiak  
-**e-mail**: kropiak@matman.uwm.edu.pl  
-**Discord:** krzysztof.ropiak  
+**Prowadzący:** dr inż. Krzysztof Ropiak
+**e-mail**: krzysztof.ropiak@uwm.edu.pl
+**Discord:** krzysztof.ropiak
